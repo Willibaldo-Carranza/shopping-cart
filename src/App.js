@@ -53,7 +53,7 @@ function App() {
       <div className='app'>
         <Nav items={items}/>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/shop/:id' element={<Product addItem={addItem} items={items}/>} />
           <Route path='/about' element={<About />} />
