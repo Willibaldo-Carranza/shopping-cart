@@ -53,11 +53,11 @@ function App() {
       <div className='app'>
         <Nav items={items}/>
         <Routes>
-          <Route path='/home' element={<Home />} />
-          <Route path='/shop' element={<Shop />} />
-          <Route path='/shop/:id' element={<Product addItem={addItem} items={items}/>} />
-          <Route path='/about' element={<About />} />
-          <Route path='/bag' element={<Bag items={items} incrementQuantity={incrementQuantity} decrementQuantity={decrementQuantity} deleteItem={deleteItem} checkout={checkout}/>} />
+          <Route path='/shopping-cart/home' element={<Home />} />
+          <Route path='/shopping-cart/shop' element={<Shop />} />
+          <Route path='/shopping-cart/shop/:id' element={<Product addItem={addItem} items={items}/>} />
+          <Route path='/shopping-cart/about' element={<About />} />
+          <Route path='/shpping-cart/bag' element={<Bag items={items} incrementQuantity={incrementQuantity} decrementQuantity={decrementQuantity} deleteItem={deleteItem} checkout={checkout}/>} />
         </Routes>
         <footer>
           <div className='top-container'>
