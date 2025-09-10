@@ -17,7 +17,7 @@ const Nav = ({items}) => {
             </div>
             <div className='nav-section'>
                 <ul className='link-container'>
-                    <Link to='/'>
+                    <Link to='/home'>
                         <li>Home</li>
                     </Link>
                     <Link to='/shop'>
